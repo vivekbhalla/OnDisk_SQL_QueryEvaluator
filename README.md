@@ -20,7 +20,7 @@ that there is not enough memory available to materialize a full relation, to say
 To successfully process these queries, we have implemented out-of core equivalents of these operators:
 
     • An External Join algorithm called Hybrid Hash Join has been implemented for better efficiency in both 
-    aspects time and memory.
+      aspects time and memory.
     • The project has been tested on evaluation machines with 2GB of memory, and Java is configured for a 1GB heap.
     • The project was run on a TPCH dataset of 2GB and it had good performance.
 
@@ -30,6 +30,6 @@ Example invocation
 
 This example uses the following directories and files
 
-  •	[data]: Table data stored in '|' separated files. Table names match the names provided in the matching CREATE TABLE with the .dat suffix.
-  •	swap: A temporary directory for an individual run.
-  • [sqlfileX]: A file containing CREATE TABLE and SELECT statements, defining the schema of the dataset and the query to process
+    • [data]: Table data stored in '|' separated files. Table names match the names provided in the matching CREATE TABLE         with the .dat suffix.
+    • swap: A temporary directory for an individual run.
+    • [sqlfileX]: A file containing CREATE TABLE and SELECT statements, defining the schema of the dataset and the query to       process
