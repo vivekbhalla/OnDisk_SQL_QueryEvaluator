@@ -30,6 +30,8 @@ Example invocation
 
 This example uses the following directories and files
 
-    • [data]: Table data stored in '|' separated files. Table names match the names provided in the matching CREATE TABLE         with the .dat suffix.
+    • [data]: Table data stored in '|' separated files. Table names match the names provided in the 
+      matching CREATE TABLE with the .dat suffix.
     • swap: A temporary directory for an individual run.
-    • [sqlfileX]: A file containing CREATE TABLE and SELECT statements, defining the schema of the dataset and the query to       process
+    • [sqlfileX]: A file containing CREATE TABLE and SELECT statements, defining the schema of the
+      dataset and the query to process.
